@@ -1,0 +1,66 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/024/592/310/large_2x/abstract-blue-watercolor-background-white-texture-watercolor-painted-on-paper-color-art-wallpaper-design-illustration-photo.jpeg');
+    background-position: center;
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    backdrop-filter: blur(16px) saturate(150%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    background-color: rgba(14, 22, 37, 0.75);
+   
+}
+
+/* Glassmorphism card effect */
+#calc  {
+    backdrop-filter: blur(16px) saturate(150%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    font-family: Arial,sans-serif;
+    max-width: 400px;
+    overflow: hidden;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+#box {
+width: 100%;
+padding: 10px;
+font-size: 5rem;
+text-align: left;
+border: none;
+background-color: rgba(17, 25, 40, 0.75) ;
+color: white;
+border-radius: 15px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(94, 96, 99, 0.75) ;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(150, 152, 154, 0.75) ;
+}
+button:active{
+    background-color: rgba(93, 98, 102, 0.75) ;
+}
+.operator-btn{
+    background-color: rgba(231, 95, 49, 0.989) ;
+}
+.operator-btn:hover{
+    background-color: rgba(228, 114, 52, 0.731) ;
+}
